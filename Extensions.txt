@@ -1,30 +1,150 @@
 -
 name:New Mouse
 firewall:0
-hacking:1
+hacking:2
 description:new mouse, new game! You now click faster
-count:3
+count:1
 -
 name:Collapse Government for Szechuan Sauce
 firewall:1
-hacking:+2
-description:
+hacking:5
+description:I want that Mulan McNugget Sauce, Morty.
 count:1
 -
 name:No reference for file path!
 firewall:0
 hacking:-1
-description:
-count:3
+description:Check your routes?
+count:1
 -
 name:Uh-oh, spyware!!
-firewall:0
+firewall:-2
 hacking:-1
 description:crap..
-count:3
+count:1
 -
-name:Uh-oh, spyware!!
+name:Switched over to mac
+firewall:2
+hacking:0
+description:Pffftt.. Windows and their virus
+count:1
+-
+name:Hacked pentagon
 firewall:0
-hacking:-1
-description:crap..
-count:3
+hacking:10
+description:Where them nukes at.
+count:1
+-
+name:Meme lord
+firewall:-5
+hacking:7
+description:You want my social security card for your next meme? Sure thing! 
+count:1
+-
+name:Recruited by anonymous
+firewall:-5
+hacking:7
+description:Exposing one secret at a time... but who's watching the watchers?
+count:1
+-
+name:You got hacked!
+firewall:-10
+hacking:0
+description:What's a firewall?
+count:1
+-
+name:You got hacked!
+firewall:-10
+hacking:0
+description:What's a firewall?
+count:1
+-
+name:Path not found
+firewall:0
+hacking:-3
+description:Check your routes?
+count:1
+-
+name:Stole hardware online
+firewall:0
+hacking:6
+description:Oops.. someone stored their prices in HTML.
+count:1
+-
+name:Stole hardware online
+firewall:0
+hacking:6
+description:Oops.. someone stored their prices in HTML.
+count:1
+-
+name:Went to Geek Squad
+firewall:-2
+hacking:-2
+description:Really?
+count:1
+-
+name:Found a wallet
+firewall:2
+hacking:2
+description:Interesting... username and password scribbled on a napkin.
+count:1
+-
+name:Finished watching Mr. Robot
+firewall:0
+hacking:1
+description:I heard the show is pretty accurate.
+count:1
+-
+name:Finished the entire algorithm book
+firewall:3
+hacking:3
+description:Wow...idk if I'm impressed or worried.
+count:1
+-
+name:Finished the entire algorithm book
+firewall:3
+hacking:3
+description:Wow...idk if I'm impressed or worried.
+count:1
+-
+name:Pirate bay.
+firewall:-5
+hacking:-5
+description:Tsk. Tsk.
+count:1
+-
+name:Reached lvl 100 in WOW.
+firewall:1
+hacking:1
+description:All those hot pockets...
+count:1
+-
+name:Finished every episode of Castle.
+firewall:-2
+hacking:-2
+description:That's not how you do it.... heard of Mr. Robot?
+count:1
+-
+name:Ties with the Russians.
+firewall:0
+hacking:6
+description:That's not how you do it.... heard of Mr. Robot?
+count:1
+-
+name:Using VPNs.
+firewall:4
+hacking:4
+description:Sneaky, sneaky.
+count:1
+-
+name:Missing a semi-colon
+firewall:-2
+hacking:-2
+description:The devils in the details.
+count:1
+-
+name:
+firewall:-2
+hacking:-2
+description:The devils in the details.
+count:1
