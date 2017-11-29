@@ -13,14 +13,20 @@ namespace Game
         private Decks.HeroDeck heroDeck;
 
         private Decks.ExtensionDeck extensionDeck;
+
+        private List<Player.Player> playersDead;
+        Random rand;
         public Game()
         {
+            rand = new Random();
             players = new List<Player.Player>();
             heroDeck = new HeroDeck();
             extensionDeck = new ExtensionDeck();
+            extensionDeck.shuffle().shuffle();
+            playersDead = new List<Player.Player>();
         }
 
-        public Game init()
+        public Game Init()
         {
             Utils.Renderer.ClearScreen();
             Utils.Renderer.ShowTitle();
@@ -29,32 +35,38 @@ namespace Game
             int playerCount = -1;
             while (!int.TryParse(input, out playerCount) || playerCount < 2 || playerCount > heroDeck.Deck.Count)
             {
-                System.Console.WriteLine($"Invalid input. Must be an integer and can only be from 2 or the max player count. (It's currently {heroDeck.Deck.Count-1}\n");
+                System.Console.WriteLine($"Invalid input. Must be an integer and can only be from 2 or the max player count. (It's currently {heroDeck.Deck.Count - 1})\n");
                 System.Console.Write("How many players will be playing: ");
                 input = Console.ReadLine();
             }
-            for(int i = 1; i <= playerCount; i++){
-                System.Console.Write($"Player {i}, please typee your name: ");
+            System.Console.WriteLine();
+            for (int i = 1; i <= playerCount; i++)
+            {
+                System.Console.Write($"Player {i}, please type your name: ");
                 input = Console.ReadLine();
-                while(input.Length == 0){
+                while (input.Length == 0)
+                {
                     System.Console.WriteLine("Invalid input. You must have a name!");
                     System.Console.Write($"Player {i}, please type your name: ");
                     input = Console.ReadLine();
                 }
                 players.Add(new Player.Player(input));
             }
+            System.Console.WriteLine();
             PrintPlayers();
             System.Console.WriteLine("Press enter to continue: ");
             Console.ReadLine();
             Utils.Renderer.ClearScreen();
-            for(int i = 0; i < playerCount; i++){
-                System.Console.WriteLine($"For {players[i].Name}");
-                System.Console.WriteLine("Pick your hero from this list:");
+            for (int i = 0; i < playerCount; i++)
+            {
+                System.Console.WriteLine($"For {players[i].Name}'s hero setup:");
+                System.Console.WriteLine("Pick your hero from this list:\n");
                 System.Console.WriteLine(heroDeck.ToString());
                 System.Console.Write("Type a name here: ");
                 input = Console.ReadLine();
                 Cards.Hero hero = getHeroInDeck(input);
-                while(hero == null){
+                while (hero == null)
+                {
                     System.Console.WriteLine("Invalid input. The name you entered was not one of the available cards!");
                     System.Console.Write("Type a name here: ");
                     input = Console.ReadLine();
@@ -62,24 +74,159 @@ namespace Game
                 }
                 heroDeck.Deck.Remove(hero);
                 players[i].Hero = hero;
-                System.Console.WriteLine($"You chose {players[i].Hero.Name} as your hero!");
+                System.Console.Write("Press enter to setup your extension cards: ");
                 Console.ReadLine();
+                Utils.Renderer.ClearScreen();
+                System.Console.WriteLine($"You chose {players[i].Hero.Name} as your hero!");
+                for (int j = 0; j < 3; j++)
+                {
+                    players[i].addExt(extensionDeck.deal());
+                }
+                System.Console.WriteLine($"You drew these three starter cards!");
+                players[i].ShowHand();
+                if (i + 1 == playerCount)
+                {
+                    System.Console.WriteLine("Press enter to continue:");
+                }
+                else
+                {
+                    System.Console.Write("Press enter to let the next player setup his hero: ");
+
+                }
+                Console.ReadLine();
+                Utils.Renderer.ClearScreen();
             }
+            System.Console.WriteLine("Thats it! Press enter one more time to start the game!");
+            Console.ReadLine();
             return this;
         }
 
+        public void start()
+        {
+            Utils.Renderer.ClearScreen();
+            System.Console.WriteLine("Welcome to the game! type help to get a list of actions you can do!");
+            int curPlayer = 0;
+            while (true)
+            {
+                if (this.players.Count == 1)
+                {
+                    GameOver();
+                    break;
+                }
+                System.Console.Write($"{players[curPlayer].Name}'s turn: ");
+                string input = Console.ReadLine();
+                string response = doCommand(input, curPlayer);
+                while (response.Equals("fail"))
+                {
+                    System.Console.WriteLine("Invalid input. That command did not exist!");
+                    System.Console.Write($"{players[curPlayer].Name}'s turn: ");
+                    input = Console.ReadLine();
+                    response = doCommand(input, curPlayer);
+                }
+                if (response.EndsWith("next"))
+                {
+                    curPlayer++;
+                    curPlayer = curPlayer % this.players.Count;
+                    // Utils.Renderer.ClearScreen();
+                }
+            }
+        }
 
-        private Cards.Hero getHeroInDeck(string name){
-            for(int i = 0; i < heroDeck.Deck.Count; i++){
-                if(heroDeck.Deck[i].Name.Equals(name)){
+        private void GameOver()
+        {
+            System.Console.WriteLine(String.Join("\n", this.players[0].Hero.Art));
+            System.Console.WriteLine($"{this.players[0].Name} won!");
+            Console.ReadLine();
+        }
+
+        private string doCommand(string input, int curPlayer)
+        {
+            switch (input)
+            {
+                case "help":
+                    string[] data = System.IO.File.ReadAllLines("help.txt");
+                    foreach (string line in data) System.Console.WriteLine(line);
+                    return "success";
+                case "show hero":
+                    System.Console.WriteLine(this.players[curPlayer].Hero.ToString());
+                    return "success";
+                case "show extensions":
+                    this.players[curPlayer].ShowHand();
+                    return "success";
+                case "draw":
+                    Cards.Extension extension = this.extensionDeck.deal();
+                    this.players[curPlayer].addExt(extension);
+                    System.Console.WriteLine("You drew a card!");
+                    System.Console.WriteLine(extension);
+                    return "success next";
+                case "board":
+                    for (int i = 0; i < this.players.Count; i++)
+                    {
+                        System.Console.WriteLine(this.players[i].Hero.ToString());
+                    }
+                    return "success";
+            }
+            if (input.StartsWith("attack"))
+            {
+                Cards.Hero hero = getHeroFromPlayers(input.Substring(7));
+                if (hero == null)
+                {
+                    System.Console.WriteLine($"The hero {input.Substring(7)} does not exist on the board!");
+                    return "try again";
+                }
+                else
+                {
+                    if (hero.Name == this.players[curPlayer].Hero.Name)
+                    {
+                        System.Console.WriteLine($"You can't attack your own hero! Thats mean!");
+                        return "try again";
+                    }
+                    Player.Player result = this.players[curPlayer].Attack(hero);
+                    if (result == null)
+                    {
+                        for (int i = 0; i < players.Count; i++)
+                        {
+                            if (players[i].Hero.Name.Equals(input.Substring(7)))
+                            {
+                                Player.Player deadPlayer = players[i];
+                                players.RemoveAt(i);
+                                playersDead.Add(deadPlayer);
+                            }
+                        }
+                    }
+                    return "success next";
+                }
+            }
+            return "fail";
+        }
+
+        private Cards.Hero getHeroFromPlayers(string name)
+        {
+            for (int i = 0; i < players.Count; i++)
+            {
+                if (players[i].Hero.Name.Equals(name))
+                {
+                    return players[i].Hero;
+                }
+            }
+            return null;
+        }
+        private Cards.Hero getHeroInDeck(string name)
+        {
+            for (int i = 0; i < heroDeck.Deck.Count; i++)
+            {
+                if (heroDeck.Deck[i].Name.Equals(name))
+                {
                     return heroDeck.Deck[i];
                 }
             }
             return null;
         }
-        private void PrintPlayers(){
+        private void PrintPlayers()
+        {
             string s = "Players that will be playing this game:\n";
-            foreach(Player.Player player in players){
+            foreach (Player.Player player in players)
+            {
                 s += player.ToString() + "\n";
             }
             System.Console.WriteLine(s);

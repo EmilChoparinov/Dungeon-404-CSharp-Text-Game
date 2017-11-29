@@ -7,7 +7,8 @@ namespace Dungeon404
         static void Main(string[] args)
         {
             Game.Game game = new Game.Game();
-            game.init();
+            game.Init().start();
+            // game.forNow();
         }
     }
 }

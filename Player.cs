@@ -25,11 +25,14 @@ namespace Player
             }
         }
 
-        public Cards.Hero Hero{
-            get{
+        public Cards.Hero Hero
+        {
+            get
+            {
                 return _hero;
             }
-            set{
+            set
+            {
                 _hero = value;
             }
         }
@@ -52,7 +55,19 @@ namespace Player
         public Player addExt(Extension card)
         {
             hand.Add(card);
+            _hero.Hacks += card.Hacking;
+            _hero.Firewall += card.FireWall;
             return this;
+        }
+
+        public void ShowHand()
+        {
+            string s = "";
+            foreach (Extension ext in hand)
+            {
+                s += ext.ToString();
+            }
+            System.Console.WriteLine(s);
         }
 
         public override string ToString()
@@ -68,6 +83,27 @@ namespace Player
                 s += _hero.ToString();
             }
             return s;
+        }
+
+        public Player Attack(Player player)
+        {
+            player._hero.Belt_score -= this._hero.Hacks / 2;
+            System.Console.WriteLine($"{this._hero.Name} just hit {player._hero.Name} with {this._hero.Hacks / 2} hacks! His belt score went down to {this._hero.Belt_score}!");
+            return this;
+        }
+
+        public Player Attack(Hero hero)
+        {
+            if (hero.Belt_score - this._hero.Hacks / 2 < 0)
+            {
+                return null;
+            }
+            else
+            {
+                hero.Belt_score -= this._hero.Hacks / 2;
+            }
+            System.Console.WriteLine($"{this._hero.Name} just hit {hero.Name} with {this._hero.Hacks / 2} hacks! His belt score went down to {hero.Belt_score}!");
+            return this;
         }
     }
 }

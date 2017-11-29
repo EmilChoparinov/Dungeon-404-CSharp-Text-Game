@@ -23,7 +23,7 @@ namespace Utils
                         i++;
                         if (i > data.Length - 1) break;
                     }
-                    Hero hero = new Hero(dict["name"], int.Parse(dict["belt_score"]), int.Parse(dict["hacks"]), int.Parse(dict["firewall"]) ,dict["description"]);
+                    Hero hero = new Hero(dict["name"], int.Parse(dict["belt_score"]), int.Parse(dict["hacks"]), int.Parse(dict["firewall"]), dict["description"]);
                     heroes.Add(hero);
                     i--;
                 }
@@ -48,8 +48,11 @@ namespace Utils
                         i++;
                         if (i > data.Length - 1) break;
                     }
-                    Cards.Extension extension = new Cards.Extension(dict["name"], int.Parse(dict["firewall"]), int.Parse(dict["hacking"]), dict["description"]);
-                    extensions.Add(extension);
+                    for (int j = 0; j < int.Parse(dict["count"]); j++)
+                    {
+                        Cards.Extension extension = new Cards.Extension(dict["name"], int.Parse(dict["firewall"]), int.Parse(dict["hacking"]), dict["description"]);
+                        extensions.Add(extension);
+                    }
                     i--;
                 }
             }

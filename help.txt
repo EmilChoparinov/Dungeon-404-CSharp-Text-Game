@@ -1,0 +1,7 @@
+Commands with * do not end your turn:
+
+*board - show players on the board
+attack <hero> - use hero to attack someone elses hero and end your turn
+draw - draw another extension card and end your turn 
+*show hero - show your hero's current stats
+*show extensions - show your extensions
