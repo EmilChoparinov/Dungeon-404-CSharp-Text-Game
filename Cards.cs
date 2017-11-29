@@ -234,11 +234,12 @@ namespace Cards
         /// <param name="name">Name of the extension</param>
         /// <param name="firewall">Defense point changer of the extension</param>
         /// <param name="hacking">Attack point changer of the extension</param>
-        public Extension(string name, int firewall, int hacking)
+        public Extension(string name, int firewall, int hacking, string description)
         {
             this.Name = name;
             this.FireWall = firewall;
             this.Hacking = hacking;
+            this.Description = description;
             this.Art = new string[] { "No card :(" };
         }
 
@@ -249,12 +250,19 @@ namespace Cards
         /// <param name="firewall">Defense point changer of the extension</param>
         /// <param name="hacking">Attack point changer of the extension</param>
         /// <param name="art">Art for the card</param>
-        public Extension(string name, int firewall, int hacking, string[] art)
+        public Extension(string name, int firewall, int hacking, string description, string[] art)
         {
+            this.Description = description;
             this.Name = name;
             this.FireWall = firewall;
             this.Hacking = hacking;
             this.Art = art;
+        }
+
+        public override string ToString(){
+            string s = "";
+            s += $"----{this.Name}----\nFireWall: {this.FireWall}\nHacking: {this.Hacking}\nDescription: {this.Description}\nArt: {this.Art}";
+            return s;
         }
     }
 }
