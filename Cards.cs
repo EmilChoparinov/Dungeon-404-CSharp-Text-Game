@@ -96,7 +96,7 @@ namespace Cards
         {
             this.Name = name;
             this.FireWall = firewall;
-            this.Hacking = Hacking;
+            this.Hacking = hacking;
             this.Art = new string[]{"No card :("};
         }
 
@@ -110,7 +110,7 @@ namespace Cards
         public Extension(string name, int firewall, int hacking,string[] art){
             this.Name = name;
             this.FireWall = firewall;
-            this.Hacking = Hacking;
+            this.Hacking = hacking;
             this.Art = art;
         }
     }
