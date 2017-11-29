@@ -5,6 +5,10 @@ namespace Dungeon404
     {
         static void Main(string[] args)
         {
+            showTitle();
+        }
+
+        static void showTitle(){
             Console.Clear();
             string[] title = System.IO.File.ReadAllLines("title.txt");
             foreach(string line in title) Console.WriteLine(line);
