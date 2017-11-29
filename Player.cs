@@ -55,8 +55,48 @@ namespace Player
         public Player addExt(Extension card)
         {
             hand.Add(card);
-            _hero.Hacks += card.Hacking;
-            _hero.Firewall += card.FireWall;
+            if (_hero.Hacks + card.Hacking < 0)
+            {
+                _hero.Hacks = 0;
+                System.Console.WriteLine("Your hacking skills dropped to 0!");
+            }
+            else
+            {
+                string s = "Your hacking skills ";
+                if (card.Hacking < 0)
+                {
+                    s += "dropped ";
+                }
+                else
+                {
+                    s += "went up ";
+                }
+                s += "by " + card.Hacking;
+                _hero.Hacks += card.Hacking;
+                System.Console.WriteLine(s);
+
+            }
+            if (_hero.Firewall + card.FireWall < 0)
+            {
+                _hero.Firewall = 0;
+            }
+            else
+            {
+                _hero.Firewall += card.FireWall;
+                string s = "Your firewall  ";
+                if (card.FireWall < 0)
+                {
+                    s += "dropped ";
+                }
+                else
+                {
+                    s += "went up ";
+                }
+                s += "by " + card.FireWall;
+                _hero.Hacks += card.FireWall;
+                System.Console.WriteLine(s);
+
+            }
             return this;
         }
 
@@ -101,8 +141,8 @@ namespace Player
             }
             else
             {
-                decimal def = (decimal) hero.Firewall/2;
-                hero.Belt_score -= this._hero.Hacks / (int) System.Math.Round(def);
+                decimal def = (decimal)hero.Firewall / 2;
+                hero.Belt_score -= this._hero.Hacks / (int)System.Math.Round(def);
             }
             System.Console.WriteLine($"{this._hero.Name} just hit {hero.Name} with {this._hero.Hacks / 2} hacks! His belt score went down to {hero.Belt_score}!");
             return this;

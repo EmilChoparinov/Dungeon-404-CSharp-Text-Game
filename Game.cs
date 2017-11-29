@@ -80,12 +80,14 @@ namespace Game
                 System.Console.Write("Press enter to setup your extension cards: ");
                 Console.ReadLine();
                 Utils.Renderer.ClearScreen();
+                System.Console.WriteLine($"You drew these three starter cards!");
                 for (int j = 0; j < 3; j++)
                 {
-                    players[i].addExt(extensionDeck.deal());
+                    Cards.Extension extension = extensionDeck.deal();
+                    System.Console.WriteLine(extension.ToString() + "\n");
+                    players[i].addExt(extension);
+                    System.Console.WriteLine();
                 }
-                System.Console.WriteLine($"You drew these three starter cards!");
-                players[i].ShowHand();
                 if (i + 1 == playerCount)
                 {
                     System.Console.WriteLine("Press enter to continue:");
