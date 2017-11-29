@@ -39,7 +39,7 @@ namespace Decks
             string s = "";
             foreach (Hero card in _deck)
             {
-                s += card.ToString();
+                s += card.ToString() + "\n";
             }
             return s;
         }

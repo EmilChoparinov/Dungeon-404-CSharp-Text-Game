@@ -35,7 +35,7 @@ namespace Game
             int playerCount = -1;
             while (!int.TryParse(input, out playerCount) || playerCount < 2 || playerCount > heroDeck.Deck.Count)
             {
-                System.Console.WriteLine($"Invalid input. Must be an integer and can only be from 2 or the max player count. (It's currently {heroDeck.Deck.Count - 1})\n");
+                System.Console.WriteLine($"Invalid input. Must be an integer and can only be from 2 or the max player count. (It's currently {heroDeck.Deck.Count})\n");
                 System.Console.Write("How many players will be playing: ");
                 input = Console.ReadLine();
             }
@@ -101,11 +101,22 @@ namespace Game
             return this;
         }
 
-        public void start()
+        public void Start()
         {
             Utils.Renderer.ClearScreen();
-            System.Console.WriteLine("Welcome to the game! type help to get a list of actions you can do!");
+            System.Console.WriteLine("Welcome to the game! type help to get a list of actions you can do!\n");
             int curPlayer = 0;
+            for (int i = 0; i < this.players.Count; i++)
+            {
+                if (i == curPlayer)
+                {
+                    System.Console.Write("you" + this.players[i].Hero.ToString().Substring(3) + "\n");
+                }
+                else
+                {
+                    System.Console.Write(this.players[i].Hero.ToString() + "\n");
+                }
+            }
             while (true)
             {
                 if (this.players.Count == 1)
@@ -127,7 +138,11 @@ namespace Game
                 {
                     curPlayer++;
                     curPlayer = curPlayer % this.players.Count;
-                    // Utils.Renderer.ClearScreen();
+                    Utils.Renderer.ClearScreen();
+                    for (int i = 0; i < this.players.Count; i++)
+                    {
+                        System.Console.WriteLine(this.players[i].Hero.ToString());
+                    }
                 }
             }
         }
@@ -146,6 +161,7 @@ namespace Game
                 case "help":
                     string[] data = System.IO.File.ReadAllLines("help.txt");
                     foreach (string line in data) System.Console.WriteLine(line);
+                    System.Console.WriteLine();
                     return "success";
                 case "show hero":
                     System.Console.WriteLine(this.players[curPlayer].Hero.ToString());
@@ -158,6 +174,8 @@ namespace Game
                     this.players[curPlayer].addExt(extension);
                     System.Console.WriteLine("You drew a card!");
                     System.Console.WriteLine(extension);
+                    System.Console.Write("Press enter to continue: ");
+                    System.Console.ReadLine();
                     return "success next";
                 case "board":
                     for (int i = 0; i < this.players.Count; i++)
@@ -182,6 +200,8 @@ namespace Game
                         return "try again";
                     }
                     Player.Player result = this.players[curPlayer].Attack(hero);
+                    System.Console.Write("Press enter to continue: ");
+                    System.Console.ReadLine();
                     if (result == null)
                     {
                         for (int i = 0; i < players.Count; i++)
@@ -230,15 +250,6 @@ namespace Game
                 s += player.ToString() + "\n";
             }
             System.Console.WriteLine(s);
-        }
-
-        public void forNow()
-        {
-            Utils.Parser.ParseExtensions();
-            ExtensionDeck deck = new Decks.ExtensionDeck();
-            HeroDeck heroDeck = new HeroDeck();
-            System.Console.WriteLine(deck);
-            System.Console.WriteLine(heroDeck);
         }
     }
 }
