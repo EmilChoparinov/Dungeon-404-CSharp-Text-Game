@@ -65,7 +65,7 @@ namespace Player
             string s = "";
             foreach (Extension ext in hand)
             {
-                s += ext.ToString();
+                s += ext.ToString() + "\n";
             }
             System.Console.WriteLine(s);
         }
@@ -96,6 +96,7 @@ namespace Player
         {
             if (hero.Belt_score - this._hero.Hacks / 2 < 0)
             {
+                System.Console.WriteLine($"{this._hero.Name} just gave {hero.Name} a really hard belt exam! His score was 0! Maybe {hero.Name} would have better luck at code fellows?");
                 return null;
             }
             else
