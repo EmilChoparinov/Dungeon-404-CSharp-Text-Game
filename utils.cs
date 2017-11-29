@@ -26,7 +26,7 @@ namespace Utils
                         i++;
                         if (i > data.Length - 1) break;
                     }
-                    Cards.Extension extension = new Cards.Extension(dict["name"], int.Parse(dict["firewall"]), int.Parse(dict["hacking"]));
+                    Cards.Extension extension = new Cards.Extension(dict["name"], int.Parse(dict["firewall"]), int.Parse(dict["hacking"]), dict["description"]);
                     extensions.Add(extension);
                     i--;
                 }

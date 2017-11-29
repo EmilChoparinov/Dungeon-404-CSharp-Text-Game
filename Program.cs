@@ -1,5 +1,6 @@
 ﻿using System;
 using Utils;
+using Decks;
 namespace Dungeon404
 {
     class Program
@@ -8,7 +9,8 @@ namespace Dungeon404
         {
             showTitle();
             Utils.Parser.ParseExtensions();
-
+            Decks.ExtensionDeck deck = new Decks.ExtensionDeck();
+            System.Console.WriteLine(deck);
         }
 
         static void showTitle(){

@@ -1,10 +1,10 @@
 -
-name: New Mouse
-firewall: -1
-hacking: 3
-description: new mouse, new game! You now click faster
+name:New Mouse
+firewall:-1
+hacking:3
+description:new mouse, new game! You now click faster
 -
 name: Collapse Government for Szechuan Sauce
-firewall: -1
-hacking: -1
-description: I have a very high IQ and only true rick and morty fans understand the meaning Szechuan Sauce.
+firewall:-1
+hacking:-1
+description:I have a very high IQ and only true rick and morty fans understand the meaning Szechuan Sauce.

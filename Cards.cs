@@ -261,7 +261,7 @@ namespace Cards
 
         public override string ToString(){
             string s = "";
-            s += $"----{this.Name}----\nFireWall: {this.FireWall}\nHacking: {this.Hacking}\nDescription: {this.Description}\nArt: {this.Art}";
+            s += $"----{this.Name}----\nFireWall: {this.FireWall}\nHacking: {this.Hacking}\nDescription: {this.Description}\nArt: {String.Join("\n",this.Art)}\n";
             return s;
         }
     }
