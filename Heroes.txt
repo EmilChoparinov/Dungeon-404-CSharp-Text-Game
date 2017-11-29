@@ -81,47 +81,48 @@ firewall:8
 description:Graham, The people's padawan, the next Code Jedi, not the hero you deserve, the hero you need.
 art:
 >
-                    `./+++syhhyys+.               
-                  `/ys:`   `...`./yo.             
-                `ody-`            .ody-           
-              .+do.                 -sm+`         
+
+                     `.//:---:/++++.               
+                  `/ys:`   `..``./yo.             
+                 /hs-`            .ody-           
+              ./yo.                 -smo`         
             .+hs-                    `-hy.        
-           +dy-                        .yh-       
-          -Ny`                          .yh.      
-         .hm:          ``.....           :do      
+           +hs-`                       .yy.       
+          -Ns`                          .yy.      
+         .hm:           `.....           :do      
         `yMo        `.+hmNNNNmds:`       .hN.     
         +Nm.      `:ymMMMMMMMMMMNy:`     `oNs     
-       .hMy:     `+yydNMMMMMMNho+/ys.   `./Nm`    
-      `+NMy`    .so.``:osyyys/```-sNo`   ./mN+    
-      .dMd-    .hmdo-..-````-/+/odmNm+`  `/NMh`   
-     .yMd:    -hdyo. .sy/` .sh/`:hdhmm/   .yMm-   
-     oMm/`  `:dNNhs--+y+.  `/ho-+hs+sNm-   -dd+   
-    .mNo`   :dh/h::-:::.    ::/sy:..oNMh.   +ys   
-   `sNs`   /mMo``.:/--:o/.-+m/..-+..:mMNs`  `+y-  
-   +Nd.   :mMMh.  `.`:oyhyyyy+:.`y` +NMMm/   /h+  
-  :mm:   `hMMMMh-   .:::/++ooo:` ` .hMMMMd-  .ys. 
- -hN+`  `+NMMMMMm:  .--+syys/.`  `-yMMMMMMy. `+m: 
-`yMy`  `/mMMNhddNm:    `:/::`   `smhmMMMMMNo` -ds`
--NN/  `+mMMdd-.+ymd/.` `````` ./hmsoyNMMMMMN/ `sm.
-.NMs` +NMm+.ss``:yNNmho/-.:/+ydNd++:ohmMMMMMd- :mo
-`/ym+.hNh:` :do` `/ymmNNmmNMmhyho.`+h:-ydNMMMy:sh/
-  `-sdms.   .ym:   `:/:sNdyo+o/.  /d+` `-omNNNds. 
-    `--`     :mh.    `:+o-://`   /ms`     ./+/-   
-             `oNs      :yo:`    :md.              
+       .hMy-     `omMMMMMMMMMMNMMMms.   ``/Nm`    
+       +NMy`   .:+oooyNMMMMMMNdsoosho.   ./mN+    
+      -dMd-   -+.    `-hMMMMN+`    `/+`   /mMh`   
+     .yMd:    o-       :NMMMh        y/   `yMd-   
+     oMm/`   :do`     `oMMMMm-      -dm-   .dd+   
+    `mNo`  `/dMNh+/syyhNMMMMMmyo:-:omMMh.   +yy   
+    sNs`   /mMMMMMMMMMMMMMMMMMMMMNMMMMMNs`  `+y-  
+   +Nh.   :mMMMMMMMMMMMMMMMMMMMMMMNMMMMMm/   /h+  
+  :dm-   `hMMMMMN+osyhhdddhhhyyso/oNMMMMMh-  .ys. 
+ -hN+   `+NMMMMMMh+-.``      ``.-omMMMMMMMs` `om: 
+`yNs`  `/mMMNhddNMMNdyso+++ooshdNMMmmMMMMMNo` -ds`
+-NN/  `/mMMdd-.+mNMMMMMMMMMMMMMMMmsoymMNMMMN: `sm.
+.mNs` /mMmo.ss``:yNMMMMMMMMMMMMMm++:ohmNMMMMd- :mo
+ :ym+-hNh:` :do``./ymmNNMMMMmhyho.`+d:.ydNMMNy:sh/
+  `-sdms.   .ym:   `://sNmyo/o/.``/d+` `.omNMNds. 
+    `-.`     /mh.    `-oo-://.  `/ms`     ./+/.   
+             `oNs    ``:y+:``   -mh.              
               `yN:  `-++-`     -dm:               
-               .Nh-:+/.       -hN/                
-                hNd+.        .yNs                 
-                /MN+        .yNy`                 
-                `dMd-      `sMd-                  
-                 :NMy.    `oMm:                   
+               -Nh-:++.`      -hN/                
+                hNd+.        .yNo`                
+                /MN+`       .yNy.                 
+                `dMd-      `sNh-                  
+                 /NNy.    `sNm:                   
                  `yMN/   `oNN/                    
-                  :mMm:``/mM+`                    
-                  `sMMd+ymMs                      
-                   -dMMMMMy`                      
+                  :mMm:``/mNo                     
+                  `sMMd+ymNs                      
+                   :dMMMMMy`                      
                     oNMMMh.                       
                     .mMMh.                        
-                     +Md-                         
-                     `s-  
+                     +Mh.                         
+                      s.      
 
 >
 -
