@@ -79,6 +79,7 @@ namespace Player
             if (_hero.Firewall + card.FireWall < 0)
             {
                 _hero.Firewall = 0;
+                System.Console.WriteLine("Your firewall is down!");
             }
             else
             {
