@@ -67,7 +67,8 @@ namespace Player
                 {
                     s += "dropped by" + card.Hacking;
                 }
-                else if(card.Hacking + _hero.Hacks == _hero.Hacks){
+                else if (card.Hacking + _hero.Hacks == _hero.Hacks)
+                {
                     s += "didn't move!";
                 }
                 else
@@ -91,7 +92,8 @@ namespace Player
                 {
                     s += "dropped by " + card.FireWall + "!";
                 }
-                else if(card.FireWall + _hero.Firewall == _hero.Firewall){
+                else if (card.FireWall + _hero.Firewall == _hero.Firewall)
+                {
                     s += "didn't change!";
                 }
                 else
@@ -147,9 +149,16 @@ namespace Player
             else
             {
                 decimal def = (decimal)hero.Firewall / 2;
-                hero.Belt_score -= this._hero.Hacks / (int)System.Math.Round(def);
+                if (def < 1)
+                {
+                    System.Console.WriteLine($"{this._hero.Name}'s hacks were destroyed by {hero.Name} intense firewall!");
+                }
+                else
+                {
+                    hero.Belt_score -= this._hero.Hacks / (int)System.Math.Round(def);
+                    System.Console.WriteLine($"{this._hero.Name} just hit {hero.Name} with {this._hero.Hacks / 2} hacks! His belt score went down to {hero.Belt_score}!");
+                }
             }
-            System.Console.WriteLine($"{this._hero.Name} just hit {hero.Name} with {this._hero.Hacks / 2} hacks! His belt score went down to {hero.Belt_score}!");
             return this;
         }
     }
