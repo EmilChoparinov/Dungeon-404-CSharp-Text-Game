@@ -22,6 +22,7 @@ namespace Player{
         /// </summary>
         /// <param name="name">Name of the player</param>
         public Player(string name){
+            hand = new List<Extension>();
             Name = name;
         }
 

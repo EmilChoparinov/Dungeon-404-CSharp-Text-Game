@@ -7,10 +7,12 @@ namespace Dungeon404
     {
         static void Main(string[] args)
         {
-            Utils.Renderer.ShowTitle();
+            // Utils.Renderer.ShowTitle();
             Utils.Parser.ParseExtensions();
-            Decks.ExtensionDeck deck = new Decks.ExtensionDeck();
+            ExtensionDeck deck = new Decks.ExtensionDeck();
+            HeroDeck heroDeck = new HeroDeck();
             System.Console.WriteLine(deck);
+            System.Console.WriteLine(heroDeck);
         }
     }
 }
