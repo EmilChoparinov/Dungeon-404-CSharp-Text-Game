@@ -141,7 +141,14 @@ namespace Game
                     Utils.Renderer.ClearScreen();
                     for (int i = 0; i < this.players.Count; i++)
                     {
-                        System.Console.WriteLine(this.players[i].Hero.ToString());
+                        if (i == curPlayer)
+                        {
+                            System.Console.Write("you" + this.players[i].Hero.ToString().Substring(3) + "\n");
+                        }
+                        else
+                        {
+                            System.Console.Write(this.players[i].Hero.ToString() + "\n");
+                        }
                     }
                 }
             }

@@ -5,13 +5,13 @@ hacking:3
 description:new mouse, new game! You now click faster
 count:3
 -
-name: Collapse Government for Szechuan Sauce
+name:Collapse Government for Szechuan Sauce
 firewall:-1
 hacking:-1
 description:I have a very high IQ and only true rick and morty fans understand the meaning Szechuan Sauce.
 count:3
 -
-name: temp
+name:temp
 firewall:1
 hacking:2
 description:temp
