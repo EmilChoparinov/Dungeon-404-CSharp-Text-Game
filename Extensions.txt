@@ -1,8 +1,8 @@
 -
 name:New Mouse
 firewall:0
-hacking:2
-description:new mouse, new game! You now click faster
+hacking:3
+description:New mouse, new game! You now click faster
 count:1
 -
 name:Collapse Government for Szechuan Sauce
@@ -13,20 +13,20 @@ count:1
 -
 name:No reference for file path!
 firewall:0
-hacking:-1
+hacking:-3
 description:Check your routes?
 count:1
 -
 name:Uh-oh, spyware!!
-firewall:-2
-hacking:-1
+firewall:-4
+hacking:-3
 description:crap..
 count:1
 -
 name:Switched over to mac
-firewall:2
+firewall:3
 hacking:0
-description:Pffftt.. Windows and their virus
+description:Pffftt.. Windows and their viruses
 count:1
 -
 name:Hacked pentagon
@@ -53,10 +53,10 @@ hacking:0
 description:What's a firewall?
 count:1
 -
-name:You got hacked!
-firewall:-10
-hacking:0
-description:What's a firewall?
+name:Make a time machine and buy DOS first
+firewall:10
+hacking:10
+description:Bill who?
 count:1
 -
 name:Path not found
@@ -71,21 +71,21 @@ hacking:6
 description:Oops.. someone stored their prices in HTML.
 count:1
 -
-name:Stole hardware online
-firewall:0
-hacking:6
-description:Oops.. someone stored their prices in HTML.
+name:Spilled a drink on your laptop
+firewall:-10
+hacking:-10
+description:Water... a coders only weakness
 count:1
 -
 name:Went to Geek Squad
-firewall:-2
-hacking:-2
+firewall:-3
+hacking:-3
 description:Really?
 count:1
 -
 name:Found a wallet
-firewall:2
-hacking:2
+firewall:3
+hacking:3
 description:Interesting... username and password scribbled on a napkin.
 count:1
 -
@@ -101,19 +101,19 @@ hacking:3
 description:Wow...idk if I'm impressed or worried.
 count:1
 -
-name:Finished the entire algorithm book
-firewall:3
-hacking:3
-description:Wow...idk if I'm impressed or worried.
+name:Hack satellite
+firewall:0
+hacking:8
+description:In space, no one can hear you hack.
 count:1
 -
-name:Pirate bay.
+name:Pirate bay virus
 firewall:-5
 hacking:-5
-description:Tsk. Tsk.
+description:A virus is just one click away.
 count:1
 -
-name:Reached lvl 100 in WOW.
+name:Reached lvl 100 in WOW
 firewall:1
 hacking:1
 description:All those hot pockets...
@@ -128,7 +128,7 @@ count:1
 name:Ties with the Russians.
 firewall:0
 hacking:6
-description:That's not how you do it.... heard of Mr. Robot?
+description:In Soviet Russa, computer hacks you.
 count:1
 -
 name:Using VPNs.
@@ -143,8 +143,20 @@ hacking:-2
 description:The devils in the details.
 count:1
 -
-name:
-firewall:-2
-hacking:-2
-description:The devils in the details.
+name:Release opponents broswer history
+firewall:0
+hacking:9
+description:No! Anything but that!
+count:1
+-
+name:Internet went down
+firewall:2
+hacking:-6
+description:Not the Comcast hotline. Please God, no!
+count:1
+-
+name:Created self-aware AI
+firewall:-10
+hacking:-10
+description:It knows all...
 count:1
