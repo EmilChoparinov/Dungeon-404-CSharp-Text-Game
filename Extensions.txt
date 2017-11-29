@@ -141,7 +141,6 @@ name:Missing a semi-colon
 firewall:-2
 hacking:-2
 description:The devils in the details.
-<<<<<<< HEAD
 count:1
 -
 name:Release opponents broswer history
@@ -160,6 +159,4 @@ name:Created self-aware AI
 firewall:-10
 hacking:-10
 description:It knows all...
-=======
->>>>>>> 066855810a337f08ecb7cc7f33298f2fcf942e29
 count:1
