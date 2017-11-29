@@ -55,28 +55,30 @@ namespace Player
         public Player addExt(Extension card)
         {
             hand.Add(card);
-            if (_hero.Hacks + card.Hacking < 0)
+            if (_hero.Hacks + card.Hacking <= 0)
             {
                 _hero.Hacks = 0;
-                System.Console.WriteLine("Your hacking skills dropped to 0!");
+                System.Console.WriteLine("Your hacking skills are 0? Do you even program!");
             }
             else
             {
                 string s = "Your hacking skills ";
                 if (card.Hacking < 0)
                 {
-                    s += "dropped ";
+                    s += "dropped by" + card.Hacking;
+                }
+                else if(card.Hacking + _hero.Hacks == _hero.Hacks){
+                    s += "didn't move!";
                 }
                 else
                 {
-                    s += "went up ";
+                    s += "went up by " + card.Hacking;
                 }
-                s += "by " + card.Hacking;
                 _hero.Hacks += card.Hacking;
                 System.Console.WriteLine(s);
 
             }
-            if (_hero.Firewall + card.FireWall < 0)
+            if (_hero.Firewall + card.FireWall <= 0)
             {
                 _hero.Firewall = 0;
                 System.Console.WriteLine("Your firewall is down!");
@@ -84,16 +86,18 @@ namespace Player
             else
             {
                 _hero.Firewall += card.FireWall;
-                string s = "Your firewall  ";
+                string s = "Your firewall ";
                 if (card.FireWall < 0)
                 {
-                    s += "dropped ";
+                    s += "dropped by " + card.FireWall + "!";
+                }
+                else if(card.FireWall + _hero.Firewall == _hero.Firewall){
+                    s += "didn't change!";
                 }
                 else
                 {
-                    s += "went up ";
+                    s += "went up by " + card.FireWall + "!";
                 }
-                s += "by " + card.FireWall;
                 _hero.Hacks += card.FireWall;
                 System.Console.WriteLine(s);
 

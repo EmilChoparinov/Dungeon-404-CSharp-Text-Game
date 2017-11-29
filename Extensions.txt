@@ -142,9 +142,3 @@ firewall:-2
 hacking:-2
 description:The devils in the details.
 count:1
--
-name:
-firewall:-2
-hacking:-2
-description:The devils in the details.
-count:1

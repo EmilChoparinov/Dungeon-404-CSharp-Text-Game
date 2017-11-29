@@ -123,6 +123,11 @@ namespace Game
             }
             while (true)
             {
+                if(this.extensionDeck.Deck.Count == 0){
+                    System.Console.WriteLine("The deck doesn't have any more cards! A new deck was made");
+                    this.extensionDeck = new ExtensionDeck();
+                    this.extensionDeck.shuffle().shuffle();
+                }
                 if (this.players.Count == 1)
                 {
                     GameOver();
