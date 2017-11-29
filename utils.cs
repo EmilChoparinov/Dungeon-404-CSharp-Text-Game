@@ -20,9 +20,11 @@ namespace Utils
                     while(!data[i].Equals("-")){
                         string ability = data[i].Substring(0,data[i].IndexOf(':'));
                         string value = data[i].Substring(data[i].IndexOf(':')+1);
+                        dict.Add(ability, value);
                         i++;
                         if(i > data.Length-1)break;
                     }
+                    Cards.Extension extension = new Cards.Extension(dict["name"], int.Parse(dict["firewall"]), int.Parse(dict["hacking"]));
                     System.Console.WriteLine("----------");
                     i--;
                 }
