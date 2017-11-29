@@ -1,8 +1,8 @@
 -
 name:Donovan
-belt_score:20
-hacks:4
-firewall:8
+belt_score:100
+hacks:8
+firewall:4
 description:Donovan, The OG. 'Nuff said.
 art:
 >
@@ -42,8 +42,8 @@ art:
 >
 -
 name:Noelle
-belt_score:10
-hacks:8
+belt_score:100
+hacks:9
 firewall:2
 description:Noelle the Sensei of C# and reluctant eater of vegan Thanksgivings.
 art:
@@ -75,9 +75,9 @@ sMMMMMMMMMMMMMMy                   /NMMMMMMMMMMMh
 >
 -
 name:Graham
-belt_score:50
-hacks:3
-firewall:4
+belt_score:100
+hacks:6
+firewall:8
 description:Graham, The people's padawan, the next Code Jedi, not the hero you deserve, the hero you need.
 art:
 >
@@ -111,9 +111,9 @@ art:
 >
 -
 name:Vorgoth
-belt_score:30
+belt_score:100
 hacks:3
-firewall:8
+firewall:14
 description:Vorgoth of the Big Brain Race, Exile of Azeroth, Eater of Coders, Smasher of Computers.
 art:
 >
@@ -139,9 +139,9 @@ art:
 >
 -
 name:Fluff
-belt_score:60
-hacks:2
-firewall:4
+belt_score:100
+hacks:10
+firewall:0
 description:Fluff the Dragon. Just don't try to pet him. 
 art:
 >
@@ -168,9 +168,9 @@ ___________________________________________________
 >
 -
 name:Gates
-belt_score:40
+belt_score:100
 hacks:4
-firewall:4
+firewall:12
 description:Bill Gates, In the pantheon of computer gods, he reigns supreme (don't tell Turing). 
 art:
 >
@@ -209,9 +209,9 @@ art:
 >
 -
 name:Jobs
-belt_score:40
-hacks:5
-firewall:2
+belt_score:100
+hacks:8
+firewall:4
 description:Steve Jobs, The lord-regent of Innovation, and some would say the devil of tech. 
 art:
 >
@@ -261,9 +261,9 @@ y+`    :y/   -ss/+shdNddmsso.   -hhmNNmydNdo/oy.-hodNMMMMd`
 >
 -
 name:Musk
-belt_score:70
-hacks:2
-firewall:1
+belt_score:100
+hacks:7
+firewall:6
 description:Elon Musk, Humanity's champion and the pioneer of space and clean energy.
 art:
 >
@@ -301,8 +301,8 @@ art:
 >
 -
 name:Obama
-belt_score:10
-hacks:1
+belt_score:100
+hacks:2
 firewall:16
 description:Obama, The Greatest president to ever preside since 2008.
 art:
@@ -351,9 +351,9 @@ art:
 >
 -
 name:Leo
-belt_score:30
+belt_score:100
 hacks:4
-firewall:6
+firewall:12
 description:Leonardo. Oscar Winner. Ninja Turtle. Prodigy.
 art:
 >
