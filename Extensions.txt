@@ -1,0 +1,8 @@
+-
+name: New Mouse
+firewall: -1
+hacking: 3
+-
+name: Collapse Government for Szechuan Sauce
+firewall: -1
+hacking: -1
