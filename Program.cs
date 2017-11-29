@@ -1,11 +1,14 @@
 ﻿using System;
+using Utils;
 namespace Dungeon404
 {
     class Program
     {
         static void Main(string[] args)
         {
-            showTitle();
+            // showTitle();
+            Utils.Parser.parseExtensions();
+
         }
 
         static void showTitle(){
