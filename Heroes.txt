@@ -81,32 +81,47 @@ firewall:4
 description:Graham, The people's padawan, the next Code Jedi, not the hero you deserve, the hero you need.
 art:
 >
-               `:oyhhhyo:`              
-            `:sdmdhmddddmdy-            
-           :ydhdmhydddhddhddy-          
-         .ydy--yhddhhhhhhhhhhd+         
-        :hddyd.yyyyyyyyyyyyyyyhs`       
-       /yssssdhhsssssssssssssssyy`      
-      /yoss+-``-+sssyy+/+ooyyssosy`     
-     -dyoo.       -oo       .:+ssss     
-     ymoo                       soy/    
-    /sso`                       -y/h`   
- `-:o://----://+/.    .--//+/----s+s+-` 
-.o.`oos/--:oyhdo/yo``/.:+yydho-`.syso`o.
-+.  ::s    -/so/..h+:/ :`:+y+-   :h:s .o
-+.  `:::.`.::://:-y` -:--+oo+:..::s++ `o
--/   :``.-------..:    `````````  +d. .o
- o`              `                ./-`o.
- .+-y`        -::      .::/.       /o:` 
-  `.-s:`    -o: -:`:/-`:. `/o-  `/.o`   
-     +:o/  //`             `-:`/o.-/    
-     `o.+s.. ::--.`````.-/sh.`o+ .o     
-      .o :s`  -/:`.---::/so``o- .+`     
-       -+ -+    ./////++/`  :. -+`      
-        :/ ``     .---.`      //`       
-         -+-    `-......`   -+-         
-          `:/:.          .//-           
-             `-:/:::::::/-`             
+                    `./+++syhhyys+.               
+                  `/ys:`   `...`./yo.             
+                `ody-`            .ody-           
+              .+do.                 -sm+`         
+            .+hs-                    `-hy.        
+           +dy-                        .yh-       
+          -Ny`                          .yh.      
+         .hm:          ``.....           :do      
+        `yMo        `.+hmNNNNmds:`       .hN.     
+        +Nm.      `:ymMMMMMMMMMMNy:`     `oNs     
+       .hMy:     `+yydNMMMMMMNho+/ys.   `./Nm`    
+      `+NMy`    .so.``:osyyys/```-sNo`   ./mN+    
+      .dMd-    .hmdo-..-````-/+/odmNm+`  `/NMh`   
+     .yMd:    -hdyo. .sy/` .sh/`:hdhmm/   .yMm-   
+     oMm/`  `:dNNhs--+y+.  `/ho-+hs+sNm-   -dd+   
+    .mNo`   :dh/h::-:::.    ::/sy:..oNMh.   +ys   
+   `sNs`   /mMo``.:/--:o/.-+m/..-+..:mMNs`  `+y-  
+   +Nd.   :mMMh.  `.`:oyhyyyy+:.`y` +NMMm/   /h+  
+  :mm:   `hMMMMh-   .:::/++ooo:` ` .hMMMMd-  .ys. 
+ -hN+`  `+NMMMMMm:  .--+syys/.`  `-yMMMMMMy. `+m: 
+`yMy`  `/mMMNhddNm:    `:/::`   `smhmMMMMMNo` -ds`
+-NN/  `+mMMdd-.+ymd/.` `````` ./hmsoyNMMMMMN/ `sm.
+.NMs` +NMm+.ss``:yNNmho/-.:/+ydNd++:ohmMMMMMd- :mo
+`/ym+.hNh:` :do` `/ymmNNmmNMmhyho.`+h:-ydNMMMy:sh/
+  `-sdms.   .ym:   `:/:sNdyo+o/.  /d+` `-omNNNds. 
+    `--`     :mh.    `:+o-://`   /ms`     ./+/-   
+             `oNs      :yo:`    :md.              
+              `yN:  `-++-`     -dm:               
+               .Nh-:+/.       -hN/                
+                hNd+.        .yNs                 
+                /MN+        .yNy`                 
+                `dMd-      `sMd-                  
+                 :NMy.    `oMm:                   
+                 `yMN/   `oNN/                    
+                  :mMm:``/mM+`                    
+                  `sMMd+ymMs                      
+                   -dMMMMMy`                      
+                    oNMMMh.                       
+                    .mMMh.                        
+                     +Md-                         
+                     `s-  
 
 >
 -
@@ -117,25 +132,37 @@ firewall:8
 description:Vorgoth of the Big Brain Race, Exile of Azeroth, Eater of Coders, Smasher of Computers.
 art:
 >
-                        _,.---''```````'-.
-                    ,-'`                  `-._
-                 ,-`                   __,-``,\
-                /             _       /,'  ,|/ \
-              ,'         ,''-<_`'.    |  ,' |   \
-             /          / _    `  `.  | / \ |\  |
-             |         (  |`'-,---, `'  \_|/ |  |
-             |         |`  \  \|  /  __,    _ \ |
-             |         |    `._\,'  '    ,-`_\ \|
-             |         |        ,----      /|   )
-             \         \       / --.      {/   /|
-              \         | |       `.\         / |
-               \        / `-.                 | /
-                `.     |     `-        _,--V`)\/        _,-
-                  `,   |           /``V_,.--`  \.  _,-'`
-                   /`--'`._        `-'`         )`'
-                  /        `-.            _,.-'`
-                              `-.____,.-'`
-
+              ./sshmmmdy:               
+            /dNMMMMMMMMMm`              
+            NMMMMMMMMMMMN.              
+            hMMmdhyyyhdm/               
+            -h-``     -o`               
+          `-odoosyyhhhdNho-             
+         -dMMMMMMMMMMMMMMMMy.           
+        `dMmddmNMMMMMMNmdhdNh`          
+       `yNh+++++symNhs+++++sN/          
+      .hMNs+++++++++++++++++mN:`-`      
+    `+mMMmo+++++++++++++++++dMNyNh      
+   shNMMMh++++++++++++++/+++NMMMMM+     
+  /MMMMMMy/:://+++++++/:://+mMMMMMh     
+ .yMMMMMNo++++/-:+++/-:+oo/+hMMMMMh     
+-mMMMMMMd+++yhs+++/+++syys++omMMMM/     
+mMMMMMMMmo+++++++++/+/++++++omMMN:      
+NMMMMMMMMNy+++::++++++/:/+++yNMMM/      
+oMMMMMMMMMNs+/../++/++.`:++hNMMMMd      
+-MMMMMMMMMMd+++osssssssooymMMMMMMNs/`   
+-MMMMMMMMMMMy++/+/++++++hMMMMMMMMMMMd.  
+-MMMMMMMMMMMNs++ohmdo+++mMMMMMMMMMMMNd. 
+-NMMMMMMMMMMMMmdMMMMMmhmMMMMMMMMMMNmh++`
+.hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNyy-` 
+ /NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd/.  
+  -dMNyMMMMMMMMMMMMMMMMMMMMMMMMMMMMms-  
+   `sNsmMMMMMMMMMMMMMMMMMMMMMMMMMMmdd-` 
+     :o+NNNMMMMMMMMMMMMMMMMMMMMMMMNy++` 
+        :s/yNMMMMMMMMMMMMNmmMMMMNmddmy:`
+            -smdhmMMMmmNMMNs:+hdyo+++--`
+              `-``:oydo:+s+/-  `.:.  
+              
 >
 -
 name:Fluff
