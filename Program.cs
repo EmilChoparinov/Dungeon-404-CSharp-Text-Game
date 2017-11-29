@@ -6,8 +6,8 @@ namespace Dungeon404
     {
         static void Main(string[] args)
         {
-            showTitle();
-            // Utils.Parser.parseExtensions();
+            // showTitle();
+            Utils.Parser.parseExtensions();
 
         }
 
