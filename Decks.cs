@@ -5,8 +5,8 @@ namespace Decks
 {
     class ExtensionDeck
     {
-        private List<Cards.Extension> _deck;
-        public List<Cards.Extension> Deck
+        private List<Extension> _deck;
+        public List<Extension> Deck
         {
             get
             {
@@ -21,44 +21,72 @@ namespace Decks
                 _deck = value;
             }
         }
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public ExtensionDeck()
         {
             Deck = Utils.Parser.ParseExtensions();
         }
 
+        /// <summary>
+        /// String representation of class Extension Deck
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string s = "";
-            foreach (Cards.Extension card in _deck)
+            foreach (Extension card in _deck)
             {
                 s += card.ToString();
             }
             return s;
         }
 
+        /// <summary>
+        /// Randomly shuffle the deck
+        /// </summary>
+        /// <returns>this context</returns>
         public ExtensionDeck shuffle()
         {
             System.Random rand = new System.Random();
             for (int i = 0; i < _deck.Count; i++)
             {
                 int moveTo = rand.Next(0, _deck.Count);
-                Cards.Extension temp = _deck[i];
+                Extension temp = _deck[i];
                 _deck[i] = _deck[moveTo];
                 _deck[moveTo] = temp;
             }
             return this;
         }
 
-        public ExtensionDeck deal()
+        /// <summary>
+        /// Deals/Removes a card from the deck
+        /// </summary>
+        /// <returns>Card delt</returns>
+        public Extension deal()
         {
-            Cards.Extension dealtCard = _deck[0];
-            _deck.RemoveAt(0);   
-            return this;
+            Extension dealtCard = _deck[0];
+            _deck.RemoveAt(0);
+            return dealtCard;
         }
 
-        public ExtensionDeck deal(int num)
+        /// <summary>
+        /// Deals/Removes num cards from the deck
+        /// </summary>
+        /// <param name="num">Number of cards to take</param>
+        /// <returns>List of cards delt</returns>
+        public List<Extension> deal(int num)
         {
-            return this;
+            List<Extension> cards = new List<Extension>();
+            for (int i = 0; i < num; i++)
+            {
+                Extension dealtCard = _deck[0];
+                cards.Add(dealtCard);
+                _deck.RemoveAt(0);
+            }
+            return cards;
         }
     }
 }

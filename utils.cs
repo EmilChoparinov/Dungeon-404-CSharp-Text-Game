@@ -34,4 +34,28 @@ namespace Utils
             return extensions;
         }
     }
+
+    /// <summary>
+    /// Used to render things to the screen
+    /// </summary>
+    class Renderer
+    {
+        /// <summary>
+        /// Shows the title of the game
+        /// </summary>
+        public static void ShowTitle()
+        {
+            string[] title = System.IO.File.ReadAllLines("title.txt");
+            foreach (string line in title) Console.WriteLine(line);
+            System.Console.ReadLine();
+        }
+
+        /// <summary>
+        /// Clears the screen
+        /// </summary>
+        public static void ClearScreen()
+        {
+            Console.Clear();
+        }
+    }
 }
