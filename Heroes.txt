@@ -1,28 +1,100 @@
 -
 name:Donovan
-belt_score:100
-hacks:10
-firewall:10
+belt_score:20
+hacks:4
+firewall:8
+description:
+art:
+>
+Text
+>
+-
+name:Noelle
+belt_score:10
+hacks:8
+firewall:2
 description:top dog
 art:
 >
-
-      ____                                                         __ __   ____    __ __
-     / __ \  __  __   ____    ____ _  ___   ____    ____          / // /  / __ \  / // /
-    / / / / / / / /  / __ \  / __ `/ / _ \ / __ \  / __ \        / // /_ / / / / / // /_
-   / /_/ / / /_/ /  / / / / / /_/ / /  __// /_/ / / / / /       /__  __// /_/ / /__  __/
-  /_____/  \__,_/  /_/ /_/  \__, /  \___/ \____/ /_/ /_/          /_/   \____/    /_/   
-                           /____/                  
+Text
 >
 -
-name:temp2
-belt_score:3
-hacks:10
-firewall:10
+name:Graham
+belt_score:50
+hacks:3
+firewall:4
 description:top dog
+art:
+>
+Text
+>
 -
-name:temp3
-belt_score:3
-hacks:10
-firewall:10
+name:Vorgoth
+belt_score:30
+hacks:3
+firewall:8
 description:top dog
+art:
+>
+Text
+>
+-
+name:Fluff
+belt_score:60
+hacks:2
+firewall:4
+description:top dog
+art:
+>
+Text
+>
+-
+name:Gates
+belt_score:40
+hacks:4
+firewall:4
+description:top dog
+art:
+>
+Text
+>
+-
+name:Jobs
+belt_score:40
+hacks:5
+firewall:2
+description:top dog
+art:
+>
+Text
+>
+-
+name:Musk
+belt_score:70
+hacks:2
+firewall:1
+description:top dog
+art:
+>
+Text
+>
+-
+name:Obama
+belt_score:10
+hacks:1
+firewall:16
+description:top dog
+art:
+>
+Text
+>
+-
+name:Leo
+belt_score:30
+hacks:4
+firewall:6
+description:top dog
+art:
+>
+Text
+>

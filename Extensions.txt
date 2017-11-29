@@ -1,18 +1,30 @@
 -
 name:New Mouse
-firewall:-1
-hacking:3
+firewall:0
+hacking:1
 description:new mouse, new game! You now click faster
 count:3
 -
 name:Collapse Government for Szechuan Sauce
-firewall:-1
+firewall:1
+hacking:+2
+description:
+count:1
+-
+name:No reference for file path!
+firewall:0
 hacking:-1
-description:I have a very high IQ and only true rick and morty fans understand the meaning Szechuan Sauce.
+description:
 count:3
 -
-name:temp
-firewall:1
-hacking:2
-description:temp
+name:Uh-oh, spyware!!
+firewall:0
+hacking:-1
+description:crap..
+count:3
+-
+name:Uh-oh, spyware!!
+firewall:0
+hacking:-1
+description:crap..
 count:3
