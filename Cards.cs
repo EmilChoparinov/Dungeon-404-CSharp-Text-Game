@@ -10,6 +10,7 @@ namespace Cards
         private int _hacks;
         private string[] _art;
         private int _firewall;
+        private string _description;
 
         /// <summary>
         /// Name of hero
@@ -32,6 +33,9 @@ namespace Cards
                 }
             }
         }
+        /// <summary>
+        /// Belt_Score is equivalent to heroes health
+        /// </summary>
         public int Belt_score
         {
             get
@@ -43,6 +47,9 @@ namespace Cards
                 _belt_score = value;
             }
         }
+        /// <summary>
+        /// Attack points
+        /// </summary>
         public int Hacks
         {
             get
@@ -51,9 +58,12 @@ namespace Cards
             }
             set
             {
-                throw new ArgumentException("Name field is empty");
+                _hacks = value;
             }
         }
+        /// <summary>
+        /// Art for hero card
+        /// </summary>
         public string[] Art
         {
             get
@@ -62,9 +72,12 @@ namespace Cards
             }
             set
             {
-                throw new ArgumentException("Name field is empty");
+                _art = value;
             }
         }
+        /// <summary>
+        /// Defense points
+        /// </summary>
         public int Firewall
         {
             get
@@ -73,14 +86,65 @@ namespace Cards
             }
             set
             {
-                throw new ArgumentException("Name field is empty");
+                _firewall = value;
             }
-    public class Extension
+        }
+        /// <summary>
+        /// Description of hero cards
+        /// </summary>
+        public string Description
+        {
+            get
+            {
+                return _description;
+            }
+            set
+            {
+                _description = value;
+            }
+        }
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="name">Name of the hero</param>
+        /// <param name="belt_score">Health of hero</param>
+        /// <param name="hacks">Damage of hero</param>
+        /// <param name="firewall">Defense point changer of the hero</param>
+        /// <param name="description">Description of hero</param>
+        public Hero(string name, int belt_score, int hacks, int firewall, string description)
+        {
+            this.Name = name;
+            this.Belt_score = belt_score;
+            this.Hacks = hacks;
+            this.Firewall = firewall;
+            this.Description = description;
+        }
+
+        /// <summary>
+        /// Constructor with extra parameter
+        /// </summary>
+        /// <param name="name">Name of the hero</param>
+        /// <param name="belt_score">Health of hero</param>
+        /// <param name="hacks">Damage of hero</param>
+        /// <param name="firewall">Defense point changer of the hero</param>
+        /// <param name="description">Description of hero</param>
+        /// <param name="art">Art of each hero</param>
+        public Hero(string name, int belt_score, int hacks, int firewall, string description, string[] art)
+        {
+            this.Name = name;
+            this.Belt_score = belt_score;
+            this.Hacks = hacks;
+            this.Firewall = firewall;
+            this.Description = description;
+            this.Art = art;
+        }
+        public class Extension
         {
             private string _name;
             private int _firewall;
             private int _hacking;
             private string[] _art;
+            private string _description;
             /// <summary>
             /// Name of Extension Card
             /// </summary>
@@ -129,7 +193,7 @@ namespace Cards
                     _hacking = value;
                 }
             }
-
+            
             /// <summary>
             /// Art of the extension card
             /// </summary>
@@ -148,7 +212,21 @@ namespace Cards
                     _art = value;
                 }
             }
-
+            /// <summary>
+            /// Description of extension card
+            /// </summary>
+            /// <returns></returns>
+            public string Description
+            {
+                get
+                {
+                    return _description;
+                }
+                set
+                {
+                    _description = value;
+                }
+            }
             /// <summary>
             /// Constructor
             /// </summary>
