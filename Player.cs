@@ -65,7 +65,7 @@ namespace Player
                 string s = "Your hacking skills ";
                 if (card.Hacking < 0)
                 {
-                    s += "dropped by" + card.Hacking;
+                    s += "dropped by " + card.Hacking;
                 }
                 else if (card.Hacking + _hero.Hacks == _hero.Hacks)
                 {
@@ -149,7 +149,8 @@ namespace Player
             else
             {
                 decimal def = (decimal)hero.Firewall / 2;
-                if (def < 1)
+                if(def == 0) def++;
+                if (this._hero.Hacks / (int)System.Math.Round(def) == 1)
                 {
                     System.Console.WriteLine($"{this._hero.Name}'s hacks were destroyed by {hero.Name} intense firewall!");
                 }
@@ -157,7 +158,7 @@ namespace Player
                 {
                     int dmg = this._hero.Hacks / (int)System.Math.Round(def);
                     hero.Belt_score -= dmg;
-                    System.Console.WriteLine($"{this._hero.Name} just hit {hero.Name} with {dmg} hacks! His belt score went down to {hero.Belt_score}!");
+                    System.Console.WriteLine($"{this._hero.Name} just hit {hero.Name} with {dmg} hacks! {hero.Name}'s belt score went down to {hero.Belt_score}!");
                 }
             }
             return this;
