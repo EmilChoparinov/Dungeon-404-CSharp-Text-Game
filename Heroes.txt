@@ -3,7 +3,7 @@ name:Donovan
 belt_score:20
 hacks:4
 firewall:8
-description:
+description:Donovan, The OG. 'Nuff said.
 art:
 >
 Text
@@ -13,7 +13,7 @@ name:Noelle
 belt_score:10
 hacks:8
 firewall:2
-description:top dog
+description:Noelle the Sensei of C# and reluctant eater of vegan Thanksgivings.
 art:
 >
 Text
@@ -23,7 +23,7 @@ name:Graham
 belt_score:50
 hacks:3
 firewall:4
-description:top dog
+description:Graham, The people's padawan, the next Code Jedi, not the hero you deserve, the hero you need.
 art:
 >
 Text
@@ -33,7 +33,7 @@ name:Vorgoth
 belt_score:30
 hacks:3
 firewall:8
-description:top dog
+description:Vorgoth of the Big Brain Race, Exile of Azeroth, Eater of Coders, Smasher of Computers.
 art:
 >
 Text
@@ -43,7 +43,7 @@ name:Fluff
 belt_score:60
 hacks:2
 firewall:4
-description:top dog
+description:Fluff the Dragon. Just don't try to pet him. 
 art:
 >
 Text
@@ -53,7 +53,7 @@ name:Gates
 belt_score:40
 hacks:4
 firewall:4
-description:top dog
+description:Bill Gates, In the pantheon of computer gods, he reigns supreme (don't tell Turing). 
 art:
 >
 Text
@@ -63,7 +63,7 @@ name:Jobs
 belt_score:40
 hacks:5
 firewall:2
-description:top dog
+description:Steve Jobs, The lord-regent of Innovation, and some would say the devil of tech. 
 art:
 >
 Text
@@ -73,7 +73,7 @@ name:Musk
 belt_score:70
 hacks:2
 firewall:1
-description:top dog
+description:Elon Musk, Humanity's champion and the pioneer of space and clean energy.
 art:
 >
 Text
@@ -83,7 +83,7 @@ name:Obama
 belt_score:10
 hacks:1
 firewall:16
-description:top dog
+description:Obama, The Greatest president to ever preside since 2008.
 art:
 >
 Text
@@ -93,7 +93,7 @@ name:Leo
 belt_score:30
 hacks:4
 firewall:6
-description:top dog
+description:Leonardo. Oscar Winner. Ninja Turtle. Prodigy.
 art:
 >
 Text
