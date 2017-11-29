@@ -6,3 +6,13 @@ C:\Users\emilc\Bots\Dojo\C# Stack\language-essentials\Dungeon404\bin\Debug\netco
 C:\Users\emilc\Bots\Dojo\C# Stack\language-essentials\Dungeon404\obj\Debug\netcoreapp1.1\Dungeon404.AssemblyInfo.cs
 C:\Users\emilc\Bots\Dojo\C# Stack\language-essentials\Dungeon404\obj\Debug\netcoreapp1.1\Dungeon404.dll
 C:\Users\emilc\Bots\Dojo\C# Stack\language-essentials\Dungeon404\obj\Debug\netcoreapp1.1\Dungeon404.pdb
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\bin\Debug\netcoreapp1.1\Dungeon404.deps.json
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\bin\Debug\netcoreapp1.1\Dungeon404.runtimeconfig.json
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\bin\Debug\netcoreapp1.1\Dungeon404.runtimeconfig.dev.json
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\bin\Debug\netcoreapp1.1\Dungeon404.dll
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\bin\Debug\netcoreapp1.1\Dungeon404.pdb
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\obj\Debug\netcoreapp1.1\Dungeon404.csproj.CoreCompileInputs.cache
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\obj\Debug\netcoreapp1.1\Dungeon404.AssemblyInfoInputs.cache
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\obj\Debug\netcoreapp1.1\Dungeon404.AssemblyInfo.cs
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\obj\Debug\netcoreapp1.1\Dungeon404.dll
+C:\Users\Connor\Desktop\DojoAssignments\netCore\Dungeon-404-CSharp-Text-Game\obj\Debug\netcoreapp1.1\Dungeon404.pdb
