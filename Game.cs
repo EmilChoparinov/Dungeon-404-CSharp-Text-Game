@@ -114,15 +114,20 @@ namespace Game
             {
                 if (i == curPlayer)
                 {
-                    System.Console.Write("you" + this.players[i].Hero.ToString().Substring(3) + "\n");
+                    System.Console.Write("you" + this.players[i].Hero.ToString().Substring(3) + "\n\n");
                 }
                 else
                 {
-                    System.Console.Write(this.players[i].Hero.ToString() + "\n");
+                    System.Console.Write(this.players[i].Hero.ToString() + "\n\n");
                 }
             }
             while (true)
             {
+                if(this.extensionDeck.Deck.Count == 0){
+                    System.Console.WriteLine("The deck doesn't have any more cards! A new deck was made");
+                    this.extensionDeck = new ExtensionDeck();
+                    this.extensionDeck.shuffle().shuffle();
+                }
                 if (this.players.Count == 1)
                 {
                     GameOver();
@@ -147,11 +152,11 @@ namespace Game
                     {
                         if (i == curPlayer)
                         {
-                            System.Console.Write("you" + this.players[i].Hero.ToString().Substring(3) + "\n");
+                            System.Console.Write("you" + this.players[i].Hero.ToString().Substring(3) + "\n\n");
                         }
                         else
                         {
-                            System.Console.Write(this.players[i].Hero.ToString() + "\n");
+                            System.Console.Write(this.players[i].Hero.ToString() + "\n\n");
                         }
                     }
                 }
@@ -200,9 +205,10 @@ namespace Game
                     return "success";
                 case "draw":
                     Cards.Extension extension = this.extensionDeck.deal();
+                    System.Console.WriteLine("You drew a card!\n");
+                    System.Console.WriteLine(extension + "\n");
                     this.players[curPlayer].addExt(extension);
-                    System.Console.WriteLine("You drew a card!");
-                    System.Console.WriteLine(extension);
+                    System.Console.WriteLine();
                     System.Console.Write("Press enter to continue: ");
                     System.Console.ReadLine();
                     return "success next";
@@ -212,6 +218,14 @@ namespace Game
                         System.Console.WriteLine(this.players[i].Hero.ToString());
                         System.Console.WriteLine("Art:");
                         this.players[i].Hero.PrintArt();
+                    }
+                    return "success";
+                case "show chars":
+                    System.Collections.Generic.List<Cards.Hero> list = Utils.Parser.ParseHeroes();
+                    foreach (Cards.Hero item in list)
+                    {
+                        System.Console.WriteLine(item.ToString());
+                        item.PrintArt();
                     }
                     return "success";
             }

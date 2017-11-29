@@ -6,7 +6,39 @@ firewall:8
 description:Donovan, The OG. 'Nuff said.
 art:
 >
-Text
+                            -yy.                            
+                          -smmmd:`                          
+                        -smmmmmmms.                         
+                      .smmmmmmmmmmd+`                       
+                    .odmmmmmmmmmmmmmh+`                     
+                  .sdmmmmmmmmmmmmmmmmmd+`                   
+                `odmmmmmmmmmmmmmmmmmmmmmd+`                 
+               .ymmmmdhmmmmmmmmmmmmmmmmmmmy`                
+              `hmmmh/` `:sdmmmmmmh+-`:ymmmms`               
+             `ommds.      `:sdhs-`     /hdmd/               
+             -dddo`                     .hddd               
+             ydhs`                       -yhd/              
+          .//yhy.   `````         `````   -yys//.           
+         +/`.ss: ```-+o/.```   ```:oo/.``  :so`.+:          
+        :+  .++  ``-:...:`.`   .`-....:`.  `//` `o.         
+        //  `:.                             `-` `o.         
+        `o.  `                               `  :+`         
+         ``                                    `-           
+      .-::::::::::::::::::::::::::::::::::::::::::::-.      
+  `:hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+`   
+ -dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm:  
+.dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN. 
+/MMMMMMMMMMMMMMMMMMMMMMMMMMMNhsNMMMMMMMMMMMMMMMMMMMMMMMMMMo 
+/MMMMMMMMMMMMMMMMMMMMMMMMMNd/-dMMMMMMMMMMMMMMMMMMMMMMMMMMMs 
+/MMMMMMMMMMMMMMMMMMMMMMMm/`   `oNMMMMMMMMMMMMMMMMMMMMMMMMMs 
+/MMMMMMMMMMMMMMMMMMMMMMN-     sMMMMMMMMMMMMMMMMMMMMMMMMMMMs 
+/MMMMMMMMMMMMMMMMMMMMMMN.     oNMMMMMMMMMMMMMMMMMMMMMMMMMMs 
+/MMMMMMMMMMMMMMMMMMMMMMMh:     :dMMMMMMMMMMMMMMMMMMMMMMMMMs 
+:NMMMMMMMMMMMMMMMMMMMMMMMMmddddNMMMMMMMMMMMMMMMMMMMMMMMMMM/ 
+ +MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy  
+  :dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm/   
+    .+yhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhy+-  
+ 
 >
 -
 name:Noelle
@@ -16,7 +48,30 @@ firewall:2
 description:Noelle the Sensei of C# and reluctant eater of vegan Thanksgivings.
 art:
 >
-Text
+                    .:oshhdhhso:`                 
+                 -smMMMMMMMMMMMMMd+`              
+               -yMMMMMMMMMMMMMMMMMMmo`            
+             .yMMMMMMMMMMMMMMMMMMMMMMm+`          
+           `+NMMMMMMMMMMMMMMMMMMMMMMMMMh-         
+          -hMMMMMMMMMMMMMdNMMMMMMMMMMMMMNo`       
+         /mMMMMMMMMMMMMMm-:hNMMMMMMMMMMMMMh.      
+       `oNMMMMMMMMMMMMNy-  `-smNMMMMMMMMMMMd-     
+      `sMMMMMMMMMMMNmo-       `:ohmNMMMMMMMMm:    
+     `sMMMMMMMMMNds:`             `-/dMMMMMMMm-   
+    `sMMMMMMMNyo+/+++/-`    `-/+++/-`.mMMMMMMMd.  
+    oNMMMMMNys+yo/hdh++y::::yo+hdh/oy+yymMMMMMMy  
+   /NMMMMMN:  -d:-yyy/-hs::od-:yyy:-d:  -mMMMMMM: 
+  .mMMMMMMm    -oo+/+oo/`  `:oo+/+oo:    yMMMMMMd 
+  hMMMMMMMN:     ``..`        ``..`     -mMMMMMMM-
+ /MMMMMMMMMmho          --:-          +ymMMMMMMMM+
+`mMMMMMMMMMMMm            `          `mMMMMMMMMMMs
+/MMMMMMMMMMMMN-                      /MMMMMMMMMMMy
+yMMMMMMMMMMMMMo       .`     `.     `dMMMMMMMMMMMs
+dMMMMMMMMMMMMMm`      `-::-::-`     oMMMMMMMMMMMM/
+sMMMMMMMMMMMMMMy                   /NMMMMMMMMMMMh 
+.dMMMMMMMMMMMMMN+                 `smMMMMMMMMMNs` 
+ `/ydNNNNmdyo+:`                     .:+osyso/`
+
 >
 -
 name:Graham
@@ -26,7 +81,33 @@ firewall:4
 description:Graham, The people's padawan, the next Code Jedi, not the hero you deserve, the hero you need.
 art:
 >
-Text
+               `:oyhhhyo:`              
+            `:sdmdhmddddmdy-            
+           :ydhdmhydddhddhddy-          
+         .ydy--yhddhhhhhhhhhhd+         
+        :hddyd.yyyyyyyyyyyyyyyhs`       
+       /yssssdhhsssssssssssssssyy`      
+      /yoss+-``-+sssyy+/+ooyyssosy`     
+     -dyoo.       -oo       .:+ssss     
+     ymoo                       soy/    
+    /sso`                       -y/h`   
+ `-:o://----://+/.    .--//+/----s+s+-` 
+.o.`oos/--:oyhdo/yo``/.:+yydho-`.syso`o.
++.  ::s    -/so/..h+:/ :`:+y+-   :h:s .o
++.  `:::.`.::://:-y` -:--+oo+:..::s++ `o
+-/   :``.-------..:    `````````  +d. .o
+ o`              `                ./-`o.
+ .+-y`        -::      .::/.       /o:` 
+  `.-s:`    -o: -:`:/-`:. `/o-  `/.o`   
+     +:o/  //`             `-:`/o.-/    
+     `o.+s.. ::--.`````.-/sh.`o+ .o     
+      .o :s`  -/:`.---::/so``o- .+`     
+       -+ -+    ./////++/`  :. -+`      
+        :/ ``     .---.`      //`       
+         -+-    `-......`   -+-         
+          `:/:.          .//-           
+             `-:/:::::::/-`             
+
 >
 -
 name:Vorgoth
@@ -36,7 +117,25 @@ firewall:8
 description:Vorgoth of the Big Brain Race, Exile of Azeroth, Eater of Coders, Smasher of Computers.
 art:
 >
-Text
+                        _,.---''```````'-.
+                    ,-'`                  `-._
+                 ,-`                   __,-``,\
+                /             _       /,'  ,|/ \
+              ,'         ,''-<_`'.    |  ,' |   \
+             /          / _    `  `.  | / \ |\  |
+             |         (  |`'-,---, `'  \_|/ |  |
+             |         |`  \  \|  /  __,    _ \ |
+             |         |    `._\,'  '    ,-`_\ \|
+             |         |        ,----      /|   )
+             \         \       / --.      {/   /|
+              \         | |       `.\         / |
+               \        / `-.                 | /
+                `.     |     `-        _,--V`)\/        _,-
+                  `,   |           /``V_,.--`  \.  _,-'`
+                   /`--'`._        `-'`         )`'
+                  /        `-.            _,.-'`
+                              `-.____,.-'`
+
 >
 -
 name:Fluff
@@ -46,7 +145,26 @@ firewall:4
 description:Fluff the Dragon. Just don't try to pet him. 
 art:
 >
-Text
+___________________________________________________
+@@@@@@@@@@@@@@@@@@@@@**^^""~~~"^@@^*@*@@**@@@@@@@@@
+@@@@@@@@@@@@@*^^'"~   , - ' '; ,@@b. '  -e@@@@@@@@@
+@@@@@@@@*^"~      . '     . ' ,@@@@(  e@*@@@@@@@@@@
+@@@@@^~         .       .   ' @@@@@@, ~^@@@@@@@@@@@
+@@@~ ,e**@@*e,  ,e**e, .    ' '@@@@@@e,  "*@@@@@'^@
+@',e@@@@@@@@@@ e@@@@@@       ' '*@@@@@@    @@@'   0
+@@@@@@@@@@@@@@@@@@@@@',e,     ;  ~^*^'    ;^~   ' 0
+@@@@@@@@@@@@@@@^""^@@e@@@   .'           ,'   .'  @
+@@@@@@@@@@@@@@'    '@@@@@ '         ,  ,e'  .    ;@
+@@@@@@@@@@@@@' ,&&,  ^@*'     ,  .  i^"@e, ,e@e  @@
+@@@@@@@@@@@@' ,@@@@,          ;  ,& !,,@@@e@@@@ e@@
+@@@@@,~*@@*' ,@@@@@@e,   ',   e^~^@,   ~'@@@@@@,@@@
+@@@@@@, ~" ,e@@@@@@@@@*e*@*  ,@e  @@""@e,,@@@@@@@@@
+@@@@@@@@ee@@@@@@@@@@@@@@@" ,e@' ,e@' e@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@" ,@" ,e@@e,,@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@~ ,@@@,,0@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@,,@@@@@@@@@@@@@@@@@@@@@@@@@
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+
 >
 -
 name:Gates
@@ -56,7 +174,38 @@ firewall:4
 description:Bill Gates, In the pantheon of computer gods, he reigns supreme (don't tell Turing). 
 art:
 >
-Text
+         `-:::::::::::--`                                
+          -/:.       `-///+s+.                              
+        .+-       `  `.:::..`o`                             
+       `o    `-/oy+oo/oo//+:s:+-                            
+       o`  :++o+.+oo+o+`   -+- .+-                          
+      -/  +/++.    `.`      `+`  //                         
+      -s  `/-                `-:``h`                        
+      `+   :-             `-.```/`d:                        
+      `+  `+`   .--.`   .:ohs:./-:o/                        
+      `s. /. .-:sh+-:.``.-`-.` . ..+                        
+       //.o-..- .-` .`            `o                        
+       `:./.  `           :``      +`                       
+        / .+`     `:.:/....`//`    o`                       
+        /.       /+`      `` `/`  o-                        
+         /- ``  `+`-::///:--.    `o                         
+          -:o+                   .+                         
+             :+-              .`  d-                        
+              `/+          `:/- `o-o+:`                     
+                /:   .-:://:`  -+.  s-+-                    
+                 y`          ./:   /:  :+`                  
+                 :s`     `/./:`   //    `:::-`              
+                -`-o.    :o:`    :/      `: .-:::-`         
+           `::::o  `++.:/-      :/        s      .-:/:`     
+      `-://+/.  ./ :+/s-       :/         +:         `://.  
+ `-:::-``/+:`  `+`o-  .o      :+           s            `:+.
++s/:----+:-----o+:o    -+    -/            :`             `o
+   ````````````````     -+``so-----------------------------y
+                         `/:o-``````````````````````````````
+ +MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy  
+  :dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm/   
+    .+yhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhy+-  
+
 >
 -
 name:Jobs
@@ -66,7 +215,49 @@ firewall:2
 description:Steve Jobs, The lord-regent of Innovation, and some would say the devil of tech. 
 art:
 >
-Text
+                       `+y..+o++:.                          
+                 .:+shmNMMmNMMMMMNmho:.`                    
+              -/ymNMMMMMMMMMMMMMMMMMMNmho:`                 
+            -ymMMMMMMMMMMMMMMMMMMMMMMMMMMNdo-`              
+          .yNMMMMMNmhs///://+sdmNMNmMMMMMMMMNh/`            
+        `:NMMMNMmy:`           `-+o`y++smMMMMMMm+`          
+       `+NNMMMNo.                     ` `/hMMMMMMh.         
+     -odNMMNMh-`                          `+mMMMMMm:        
+   .+dNMMMMMh.                              -hMMMMMd:       
+ `/hNMMMMMMN.                                -dMMMMMd/      
+`/dMMMMMMMNh                                 `yMMMMMMd/`    
+  oNMMMMMMN/                                 .NMMMMMMMm+    
+  omMMMMMMN/                                 .yMMMMMMMd/    
+   yNMMMMMNs                                  .dMMMMMMmo`   
+   omMMMMMMd                                  `:NMMMMNds:   
+  `omMMMMMMM:                                 `sMMMMMNd+`   
+  omMNNNNMMMd.                                `mMMMMMMMmys/ 
+`smNy/::/oyNMo`                               `NMMMMMMMMMMN.
+ss.-s/      /y+.                              `dMMMMMMMMMMm`
+N-    .-   `-/o+/::-.      ``       `.://+//:.`.mMMMMMMMMNh 
+N-    :s+  ....:oydmmmy+-` /-   `-ohmmNNmmmds:` `hNMMMMMMm/ 
+y+`    :y/   -ss/+shdNddmsso.   -hhmNNmydNdo/oy.-hodNMMMMd` 
+:h.    `/h: -h/` .omNd: +m+-` ./oNm+NmNmmh+-.`/dd:/dMMMMNy  
+ h+`    `:d:h/` `:+o+:.  sho-``-+Nd:y+oosso+-``N:`sNMMMMm+  
+ .d:     `:/d/`          oo.    -mm. ..`     `-N  sNMMMMd/  
+  h/`       /h-`     `  :d:     .+/d: `     `/d:  hNMMMNm+  
+  /y:`     ``:so:.` `.:oy-       ` :os+////oso. `sNMMMMMm+  
+   /s+.``     `:+ossso/-`          -/------.` `:dNMMMMMNy`  
+    -+ys-               /`          o+`      .yMMMMMNdhs-   
+      +y.  `        `   /o:-`    ./sy-`     -hMMMMMMNo.`    
+      -os    `           .:ohs:-ohs-       .sMMMMMMMM+      
+       :y:                  .:oo/.  `      :dMMMMMMMN+      
+       `/h`                            `.` :mMMMMMMMm/      
+        .oy`        `-::/:::--------:/+/-` :dMMMMMMMy-      
+         .yo       ./+:-::+++oooooo/:-.    :mMMMMMms-       
+          .d/`     .:       ````````       :mMMMMM:`        
+           .d+`            -+ssyso+/`      /MMMMMs`         
+            `ys-                          -yMMMNs`          
+             `+y/`                      .omMMMm+            
+               -oo:`                   .yNMMms-             
+                 -+o+-`    ``..--.`   `yNNms-               
+                   `:+ss+/shmNNMMmy+`/ymy+-                 
+                       `-/+oshdmmmdys+:`      
 >
 -
 name:Musk
@@ -76,7 +267,37 @@ firewall:1
 description:Elon Musk, Humanity's champion and the pioneer of space and clean energy.
 art:
 >
-Text
+
+                         .+/.                                
+                  ` `/+o::so:oo/s+`                         
+               `/yyo/::-         +o/-                       
+             `/md+`                 .+/+:`                  
+             :/::`   .:::/:   -::.     /ms`                 
+           .hy/.  -/:.`-/o::-:. `::/`   -d+`                
+          `ss.   :/                -m:   +s`                
+          `.h.   /-    ``.--:::.`   o`  -y:                 
+            o   //     `...``       ::  +o.                 
+           `+  :y`      `-::/:-      /- /-                  
+           .+``+.                ``  `o +.                  
+            -soo `://:-.       .::-:-`/-o/                  
+           .+-y/ ` .:+o:`    /.:oy/.   soo`                 
+            +.-s`-:--::`    +:  `:.`   yy-                  
+            :-`.            o.         -o                   
+            `+`o``          `-         y+                   
+             -/s`.`      .    -        o                    
+               +`..` `-` `.:`-`   .` ` +.                   
+               +`.-- .`           `- / /-                   
+               +.`-::..-:::///:--.` ``.+`                   
+               .+:-:/+/.           `:/:                     
+                 -osooos+.       `/s`                       
+               .:/oo++/oyd+   `.:++h/:-`                    
+          `-:::-  ./ .//.`-:-:-.`+.+` `::::-`               
+   `.-::::-`      `o    ./s:` `//` +`      `-:::::-`        
+:so+/...`````````  +-``.+/.````o:..s....------::::/oooo+/-. 
+   ``...----------:/o-s+--------/+.s...```````              
+                   `oo.          //+                        
+                    .:            s:                    
+
 >
 -
 name:Obama
@@ -86,7 +307,47 @@ firewall:16
 description:Obama, The Greatest president to ever preside since 2008.
 art:
 >
-Text
+                  `-:ossysssysso/:-`                        
+              ``:smNMMMMMMMMMMMMMMNmds/`                    
+            `/hNMMMMMMMMMMMMMMMMMMMMMMMNh+.                 
+          .smNMMMMMMMMNNNdhhyyysssyyhdNMMMmy-               
+        .sNMMMMMMNhs+:-...````...-:++++sdMMMNh:             
+      `omMMMMNdo:.`               `/+/+++hMMMMNh:`          
+     .yMMMMNs:`                    :++++++NMMMMMMh:`        
+    -dMMMNs.                       `:/++++mMMMMMMMNo`       
+   .dMMMN+`                         `-/+++ydNMMMMMMNo       
+   yMMMNs-                        ``-:+oo++ohNMMMMMMN.      
+  -NMMMy+.                     `-+ydmNNNNmdyydMMMMMMMy      
+  sMMMN+/.         `...`     `:smmNNmdddddmmNmddNMMMMd`     
+  yMMMd+/.    `-ohddmmmmds-` `/ssdmhhhdddmmNMMNhhmMMMm-     
+ `hMMMd/-`   -hmNNmddmNNds/s.:+/hMmsoomMMddmNNmyyyhNMm:     
+  yMMMd.`  .+dmhooyhdho+-` o/..:+do+++oyyooossssyssmNNysso-`
+  yMMMN    -dd+o+/oNNy..`  :o  -:sooooooosooooo++omNMMMMMMm-
+  /NMMM. `/-o./-``.:/+o/:://-   :ody+++++/++++/osomMMMNddMMo
+  `dMMMy-+-```--:::---..``      `:oyhs++++++/+/yNmNMMMNyodMy
+   /MMMmo.   ``                `/yyssys+++++++/yNMMMMMMmyyNo
+   `hMdmh-               `-:-``oNMMMNNNy+++++/+odMMMMMMmsyN/
+ .+oyy+sy+.              +hds::ydhhhhyyo+++++/+/ohNMMMMNhmN-
+-mNNdhy::.-`             ```` ````.+++++//++++++++yMMMNhhMy`
++MMm..-sh.`.`                   `+hmmdhyso++so/+++yMMMNdhh- 
+.dMN-  dNs-.-`             `:oyhdNMNNNNNNNmdhd+++omMMNs+:`  
+ -hNo.`NMm:`:-            -yNMNNmds/ssyhhyys+o++odMMMm:     
+  `ohy+:ys. -/-          /dMdo::--/smNNds+++++oymMMMMNs.    
+   `-sms:-+`/s/.        -hs+/:/syhdmdhs+oys+/hmMMMMMMMMh-   
+     `:yho..:os/.               `.:oss+/+++++mMMMMMMMMMMm/  
+       `-///. /y/`              .--//-..-/++hNMMMMMMMNho/:` 
+              `/hs:`                  `-/+sdMMMMMMMMM/`     
+                /mmy+-``           `-/oydmMMMMMMMMMMh`      
+                 :mdmmhyo++/:::/++shmNMMMMMMMMMMMMNo`       
+                  ..`+hNMMMMMMMMMMMMMMMMMMMMMMMMNy-         
+                      `-odNMMMMMMMMMMMMMMMMMMMNh/           
+                          -+hmNMMMMMMMMMMMMMNd:`            
+                            `.:+syyNMMMMMMNh:`              
+                                  `mMMMMNy:                 
+                                  +NMMNs-                   
+                                 :mMmo.                     
+                                .hd/`                       
+                                /:`    
 >
 -
 name:Leo
@@ -96,5 +357,36 @@ firewall:6
 description:Leonardo. Oscar Winner. Ninja Turtle. Prodigy.
 art:
 >
-Text
+                  ./osys++shmNNNNdhy+-`                      
+               -yNMMMMMMMMMMMMMMMMMMMNy/.                   
+             `sNMMMMMMMMMMMMMMMMMMMMMMMMNs-                 
+            /dMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh-               
+          `oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs`             
+          yMMMMMMMMMMMMMMMMMMMMMMNMMMMMMMMMMMMd-            
+         /NMMh/:/ohmMMMMMMMMMNms:-/hMMMMMMMMMMMd`           
+        `hMMM/    `./ydmdhys+:`    `hMMMMMMMMMMN.           
+        .NMMN/   `..-----::.`.`     `yMMMMMMMMMh`           
+        .mMMh`   .......-----.-.`    .hMMMMMMMN/            
+         sMMo   ``...----.-::-.       -mMMMMMMN/            
+         .mM/    ``.--:.  ```.---.`    -yNMMMMdy/`          
+          /N.`:oo+/.  `-  `/oooooso:`   `+NMMh:mh-          
+          `y-:+:/oso-. `  `://+o/--.`    `ohyo:sh.          
+           .o` :/ohhsho   .hNdys+/-..      `/MNss           
+            +: `./shmd/    .+s:.            :yhy-           
+            `s` `..o/.     `-`..            .`/o            
+             //   ` `:     `+o.            .-:+.            
+             .o     .o+:`-+oo:--           +/.`             
+             `s`    `:shyhyhy/::.`        `+-               
+              +-  .hso/://::/+oym/       .+/:               
+              `o. .M:`.---.--.`-ms      .o-.s.`             
+               `+:`hy`   ``    :NNs-..-os-:`-hh+`           
+                 :+sNy:-oso+++smMMMMmdy/::` `yMMs.          
+                   -dmNMMMMMMMMMMMNdo/+/.  `oMMMMd:`        
+                    y.smNMMMMMMNms/++/`   .yNMMMMMNy/``     
+             ``./oshs -./oyhyso+++/.    `oNMMMMMMMMMMNh+.`  
+          ./sdNMMMMM+ .:...:/+/-`     `+mMMMMMMMMMMMMMMMNdo.
+      `-odNMMMMMMMMMh  `+o/.         -hMMMMMMMMMMMMMMMMMMMMy
+   .:ohNMMMMMMMMMMMm/ +dMMd`        -mMMMMMMMMMMMMMMMMMMMMMy
+:+oosssssssssssssss. -NNNdy.        -oooooooooooooooooooooo/
+
 >

@@ -12,7 +12,7 @@ namespace Dungeon404
             game.Init().Start();
             // System.Collections.Generic.List<Cards.Hero> list = Utils.Parser.ParseHeroes();
             // foreach(Cards.Hero item in list){
-            //     // System.Console.WriteLine(item.ToString());
+            //     System.Console.WriteLine(item.ToString());
             //     item.PrintArt();
             // }
         }
