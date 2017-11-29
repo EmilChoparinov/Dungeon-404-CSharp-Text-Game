@@ -101,7 +101,8 @@ namespace Player
             }
             else
             {
-                hero.Belt_score -= this._hero.Hacks / 2;
+                decimal def = (decimal) hero.Firewall/2;
+                hero.Belt_score -= this._hero.Hacks / (int) System.Math.Round(def);
             }
             System.Console.WriteLine($"{this._hero.Name} just hit {hero.Name} with {this._hero.Hacks / 2} hacks! His belt score went down to {hero.Belt_score}!");
             return this;

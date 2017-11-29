@@ -74,10 +74,12 @@ namespace Game
                 }
                 heroDeck.Deck.Remove(hero);
                 players[i].Hero = hero;
+                Utils.Renderer.ClearScreen();
+                hero.PrintArt();
+                System.Console.WriteLine($"You chose {players[i].Hero.Name} as your hero!");
                 System.Console.Write("Press enter to setup your extension cards: ");
                 Console.ReadLine();
                 Utils.Renderer.ClearScreen();
-                System.Console.WriteLine($"You chose {players[i].Hero.Name} as your hero!");
                 for (int j = 0; j < 3; j++)
                 {
                     players[i].addExt(extensionDeck.deal());
@@ -124,7 +126,7 @@ namespace Game
                     GameOver();
                     break;
                 }
-                System.Console.Write($"{players[curPlayer].Name}'s turn: ");
+                System.Console.Write($"\n{players[curPlayer].Name}'s turn: ");
                 string input = Console.ReadLine();
                 string response = doCommand(input, curPlayer);
                 while (response.Equals("fail"))
@@ -139,6 +141,20 @@ namespace Game
                     curPlayer++;
                     curPlayer = curPlayer % this.players.Count;
                     Utils.Renderer.ClearScreen();
+                    for (int i = 0; i < this.players.Count; i++)
+                    {
+                        if (i == curPlayer)
+                        {
+                            System.Console.Write("you" + this.players[i].Hero.ToString().Substring(3) + "\n");
+                        }
+                        else
+                        {
+                            System.Console.Write(this.players[i].Hero.ToString() + "\n");
+                        }
+                    }
+                }
+                if (response.EndsWith("print"))
+                {
                     for (int i = 0; i < this.players.Count; i++)
                     {
                         if (i == curPlayer)
@@ -171,8 +187,12 @@ namespace Game
                     System.Console.WriteLine();
                     return "success";
                 case "show hero":
-                    System.Console.WriteLine(this.players[curPlayer].Hero.ToString());
-                    return "success";
+                    Utils.Renderer.ClearScreen();
+                    this.players[curPlayer].Hero.PrintArt();
+                    System.Console.WriteLine("Press enter to go back to game");
+                    Console.ReadLine();
+                    Utils.Renderer.ClearScreen();
+                    return "success print";
                 case "show extensions":
                     this.players[curPlayer].ShowHand();
                     return "success";
@@ -188,6 +208,8 @@ namespace Game
                     for (int i = 0; i < this.players.Count; i++)
                     {
                         System.Console.WriteLine(this.players[i].Hero.ToString());
+                        System.Console.WriteLine("Art:");
+                        this.players[i].Hero.PrintArt();
                     }
                     return "success";
             }

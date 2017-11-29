@@ -118,7 +118,7 @@ namespace Cards
             this.Hacks = hacks;
             this.Firewall = firewall;
             this.Description = description;
-            this._art = new string[] {"No card art :("};
+            this._art = new string[] { "No card art :(" };
         }
 
         /// <summary>
@@ -143,8 +143,16 @@ namespace Cards
         public override string ToString()
         {
             string s = "";
-            s += $"----{this.Name}----\nFireWall: {this.Firewall}\nHacking: {this.Hacks}\nBelt Score: {this.Belt_score}\nDescription: {this.Description}\nArt: {String.Join("\n", this.Art)}\n";
+            s += $"----{this.Name}----\nFireWall: {this.Firewall}\nHacking: {this.Hacks}\nBelt Score: {this.Belt_score}\nDescription: {this.Description}";
             return s;
+        }
+
+        public void PrintArt()
+        {
+            foreach (string s in this._art)
+            {
+                System.Console.WriteLine(s);
+            }
         }
     }
     public class Extension
@@ -270,8 +278,16 @@ namespace Cards
         public override string ToString()
         {
             string s = "";
-            s += $"----{this.Name}----\nFireWall: {this.FireWall}\nHacking: {this.Hacking}\nDescription: {this.Description}\nArt: {String.Join("\n", this.Art)}\n";
+            s += $"----{this.Name}----\nFireWall: {this.FireWall}\nHacking: {this.Hacking}\nDescription: {this.Description}";
             return s;
+        }
+
+        public void PrintArt()
+        {
+            foreach (string s in this._art)
+            {
+                System.Console.WriteLine(s);
+            }
         }
     }
 }

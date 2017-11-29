@@ -11,6 +11,7 @@ namespace Utils
             string[] data = System.IO.File.ReadAllLines("Heroes.txt");
             for (int i = 0; i < data.Length; i++)
             {
+                List<string> art = new List<string>();
                 if (data[i].Equals("-"))
                 {
                     i++;
@@ -19,11 +20,24 @@ namespace Utils
                     {
                         string ability = data[i].Substring(0, data[i].IndexOf(':'));
                         string value = data[i].Substring(data[i].IndexOf(':') + 1);
+                        if (ability.Equals("art"))
+                        {
+                            i += 2;
+                            while (!data[i].Equals(">"))
+                            {
+                                art.Add(data[i]);
+                                i++;
+                            }
+                            if (art.Count == 0)
+                            {
+                                art.Add("No card art :(");
+                            }
+                        }
                         dict.Add(ability, value);
                         i++;
                         if (i > data.Length - 1) break;
                     }
-                    Hero hero = new Hero(dict["name"], int.Parse(dict["belt_score"]), int.Parse(dict["hacks"]), int.Parse(dict["firewall"]), dict["description"]);
+                    Hero hero = new Hero(dict["name"], int.Parse(dict["belt_score"]), int.Parse(dict["hacks"]), int.Parse(dict["firewall"]), dict["description"], art.ToArray());
                     heroes.Add(hero);
                     i--;
                 }
