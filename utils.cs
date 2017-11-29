@@ -8,7 +8,7 @@ namespace Utils
         public static void parseHeros()
         {
         }
-        public static List<Cards.Extension> parseExtensions()
+        public static List<Cards.Extension> ParseExtensions()
         {
             List<Cards.Extension> extensions = new List<Extension>();
             string[] data = System.IO.File.ReadAllLines("Extensions.txt");
