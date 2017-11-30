@@ -83,6 +83,11 @@ namespace Game
                 System.Console.WriteLine($"You drew these three starter cards!");
                 for (int j = 0; j < 3; j++)
                 {
+                    if (extensionDeck.Deck.Count == 1)
+                    {
+                        this.extensionDeck = new ExtensionDeck();
+                        this.extensionDeck.shuffle().shuffle();
+                    }
                     Cards.Extension extension = extensionDeck.deal();
                     System.Console.WriteLine(extension.ToString() + "\n");
                     players[i].addExt(extension);
@@ -123,7 +128,8 @@ namespace Game
             }
             while (true)
             {
-                if(this.extensionDeck.Deck.Count == 0){
+                if (this.extensionDeck.Deck.Count == 0)
+                {
                     System.Console.WriteLine("The deck doesn't have any more cards! A new deck was made");
                     this.extensionDeck = new ExtensionDeck();
                     this.extensionDeck.shuffle().shuffle();
